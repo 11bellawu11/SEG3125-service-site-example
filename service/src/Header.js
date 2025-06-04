@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './Header.css';
+import './index.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container';
@@ -9,7 +9,7 @@ function Header() {
   <>
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             Art Website lol
           </Navbar.Brand>
           
