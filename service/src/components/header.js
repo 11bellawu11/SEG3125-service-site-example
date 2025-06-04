@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './index.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container';
@@ -9,31 +7,33 @@ function Header() {
   <>
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#home">
             Art Website lol
           </Navbar.Brand>
+
           
-          <Nav defaultActiveKey="/" as="ul">
+          
+          <Nav defaultActiveKey="/home" as="ul">
             <Nav.Item as="li">
-              <Nav.Link href="/">
+              <Nav.Link href="/home">
                 Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link href="/commission-info">
+              <Nav.Link eventKey="link-1">
                 Commission Info
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link href="/commission-request" >
-                Request Commission
+              <Nav.Link eventKey="link-2">
+                Request Here
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link href="/gallery">
+              <Nav.Link eventKey="link-3">
                 Gallery
               </Nav.Link>
             </Nav.Item>
