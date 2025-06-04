@@ -13,27 +13,27 @@ function Header() {
             Art Website lol
           </Navbar.Brand>
           
-          <Nav defaultActiveKey="/home" as="ul">
+          <Nav defaultActiveKey="/" as="ul">
             <Nav.Item as="li">
-              <Nav.Link href="/home">
+              <Nav.Link href="/">
                 Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link eventKey="link-1">
+              <Nav.Link href="/commission-info">
                 Commission Info
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
               <Nav.Link href="/commission-request" >
-                Request Here
+                Request Commission
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link eventKey="link-3">
+              <Nav.Link href="/gallery">
                 Gallery
               </Nav.Link>
             </Nav.Item>
