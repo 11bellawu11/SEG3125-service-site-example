@@ -9,16 +9,18 @@
     margin-bottom: 5%;
 }
 
-.container2{
+.row1{
+    background-color: lightblue;
     padding: 0;
     margin: 0;
 }
 
-.container-images{
-    width: 50%;
-    height: 50px;
+.col1{
+    width: auto;
     padding: 0;
     margin: 0;
+    align-content: center;
+    text-align: center;
 }
 
 @media (max-width: 900px) {

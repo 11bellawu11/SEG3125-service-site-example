@@ -1,4 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './gallery.css';
 
 import { useState } from 'react';
@@ -21,33 +23,37 @@ function Gallery() {
       </Container>
 
       <Container className="container1">
-        <Container className="container-images">
-          <Carousel activeIndex={index1} onSelect={handleSelect1}>
-              <Carousel.Item>
-                  <img src={require('../images/20200307_190940000_iOS.jpg')} class="img-fluid" alt="..."></img>
-              </Carousel.Item>
-              <Carousel.Item>
-                  <img src={require('../images/20200307_191006000_iOS.jpg')} class="img-fluid" alt="..."></img>
-              </Carousel.Item>
-              <Carousel.Item>
-                  <img src={require('../images/20200307_191028000_iOS.jpg')} class="img-fluid" alt="..."></img>
-              </Carousel.Item>
-              <Carousel.Item>
-                  <img src={require('../images/20200324_175234000_iOS.jpg')} class="img-fluid" alt="..."></img>
-              </Carousel.Item>
-          </Carousel>
-        </Container>
+        <Row className="row1">
+          <Col className="col1">
+            <h5>
+              Headshot drawings!
+            </h5>
+          </Col>
 
-        <Container className="container-images">
+          <Col className="col1">
+              <Carousel activeIndex={index1} onSelect={handleSelect1}>
+                  <Carousel.Item>
+                      <img src={require('../images/20200307_190940000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img src={require('../images/20200307_191006000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img src={require('../images/20200307_191028000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img src={require('../images/20200324_175234000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  </Carousel.Item>
+              </Carousel>
+          </Col>
 
-        </Container>
-
-        <Container className="container-images">
-
-        </Container>
+        </Row>
 
       </Container>
+
+
     </Container>
+    
 
   );
 }
