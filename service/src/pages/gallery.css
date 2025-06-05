@@ -15,21 +15,25 @@
     background-color: #F2EADF;;
     padding: 0;
     margin: 0;
+    height: fit-content;
     border-radius: 15px;
     border: 1px solid black;
 }
 
 .col1{
     width: auto;
+    height: auto;
     padding: 0%;
     margin: 1%;
     align-content: center;
     text-align: center;
 }
 
+
+
 @media (max-width: 900px) {
     .carousel {
-      width:auto;
-      height: auto;
+      height:100%;
+      width: 100%;
     }
 }

@@ -56,7 +56,10 @@ function Gallery() {
                       <img src={require('../images/20200307_190940000_iOS.jpg')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
                   <Carousel.Item>
-                      <img src={require('../images/20200307_191006000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                      <img  src={require('../images/20200307_191006000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                      <img src={require('../images/20240907_175821192_iOS.png')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
                   <Carousel.Item>
                       <img src={require('../images/20200307_191028000_iOS.jpg')} class="img-fluid" alt="..."></img>
