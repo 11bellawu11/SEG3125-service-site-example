@@ -28,21 +28,21 @@ function Home() {
         <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>Our Services</h2>
         <div className="service-cards">
           <div className="service-card headshot"> 
-            <img src='./headshot.PNG' alt='headshot art of lady'></img>
+            <img src={require('../images/Commission 75 - Zion-Showcase.png')} alt='headshot art of lady'></img>
             <p>A focused portrait from the shoulders up, ideal for profile images, branding, or gifting. Simple, clean, and expressive </p>
             <Link to="/commission-info"  className='home-button request-work'>
               Learn More!
             </Link>
           </div>
           <div className="service-card midshot"> 
-            <img src='./midshot.jpg' alt='midshot image'></img>
+            <img src={require('../images/20240104_193355273_iOS.png')} alt='midshot image'></img>
             <p>A half-body illustration from the waist up. Perfect for showcasing clothing, posture, and expression. Suitable for character art, presentations, or promotional use.</p>
             <Link to="/commission-info"  className='home-button request-work'>
               Learn More!
             </Link>
           </div>
           <div className="service-card fullbody"> 
-            <img src='./fullbody.png' alt='fullbody drawing'></img>
+            <img src={require('../images/Commission 64 - Monoleaff_-Showcase.png')} alt='fullbody drawing'></img>
             <p>A complete illustration capturing the subject from head to toe. Recommended for dynamic poses, full outfits, and detailed character designs. Ideal for reference sheets, storytelling, or standout visuals.</p>
             <Link to="/commission-info"  className='home-button request-work'>
               Learn More!
