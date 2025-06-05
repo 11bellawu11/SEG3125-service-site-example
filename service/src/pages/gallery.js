@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import styles from './gallery.css';
-import ControlledCarouselHeadshot from '../components/controlled-carousel.js';
+import ControlledCarouselHeadshot from '../components/controlled-carousel';
 
 
 
