@@ -39,7 +39,8 @@
 .home-hero-img{
     grid-column: 4/5;
     grid-row: 1/4;
-    height: 300px;
+    height: 250px;
+    margin: 5%;
 }
 
  @media (max-width: 768px) {
