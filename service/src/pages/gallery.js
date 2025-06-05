@@ -14,19 +14,34 @@ function Gallery() {
     setIndex1(selectedIndex);
   };
 
+    const [index2, setIndex2] = useState(0);
+
+  const handleSelect2 = (selectedIndex) => {
+    setIndex2(selectedIndex);
+  };
+
+    const [index3, setIndex3] = useState(0);
+
+  const handleSelect3 = (selectedIndex) => {
+    setIndex3(selectedIndex);
+  };
+
 
   return(
-    <Container class="gallery-body">
+    <Container className="gallery-body">
       <Container className="container1">
-        <h2>Welcome to the Gallery</h2>
-        <h4>Here you will find some example works!</h4>
+        <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>Welcome to the Gallery!</h2>
+        <h4>Here you will find some example works</h4>
       </Container>
 
       <Container className="container1">
         <Row className="row1">
           <Col className="col1">
-            <h5>
+            <h3>
               Headshot drawings!
+            </h3>
+            <h5>
+              aaaaaaaaaaaaaaaaaaa
             </h5>
           </Col>
 
@@ -52,13 +67,16 @@ function Gallery() {
       <Container className="container1">
         <Row className="row1">
           <Col className="col1">
+            <h3>
+              Halfbody drawings!
+            </h3>
             <h5>
-              Headshot drawings!
+              aaaaaaaaaaaaaaaaaaa
             </h5>
           </Col>
 
           <Col className="col1">
-              <Carousel activeIndex={index1} onSelect={handleSelect1}>
+              <Carousel activeIndex={index2} onSelect={handleSelect2}>
                   <Carousel.Item>
                       <img src={require('../images/20200307_190940000_iOS.jpg')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
@@ -79,13 +97,16 @@ function Gallery() {
       <Container className="container1">
         <Row className="row1">
           <Col className="col1">
+            <h3>
+              Fullbody drawings!
+            </h3>
             <h5>
-              Headshot drawings!
+              aaaaaaaaaaaaaaaaaaa
             </h5>
           </Col>
 
           <Col className="col1">
-              <Carousel activeIndex={index1} onSelect={handleSelect1}>
+              <Carousel activeIndex={index3} onSelect={handleSelect3}>
                   <Carousel.Item>
                       <img src={require('../images/20200307_190940000_iOS.jpg')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
