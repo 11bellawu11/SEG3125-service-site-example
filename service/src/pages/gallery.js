@@ -1,12 +1,11 @@
 import Container from "react-bootstrap/esm/Container";
 import styles from './gallery.css';
-import ControlledCarouselHeadshot from '../components/controlled-carousel';
-
-
-
+import HeadshotCarousel from "../components/headshot-carousel";
 
 function Gallery() { 
+
   return(
+    
     <Container class="gallery-body">
       <Container class="container1">
         <h2>Welcome to the Gallery</h2>
@@ -16,9 +15,8 @@ function Gallery() {
       <Container class="container1">
         
         <Container class="container-images">
-          <ControlledCarouselHeadshot />
+        <HeadshotCarousel />
         </Container>
-
         <Container class="container-images">
 
         </Container>

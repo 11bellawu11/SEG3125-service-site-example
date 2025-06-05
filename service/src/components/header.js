@@ -10,8 +10,6 @@ function Header() {
           <Navbar.Brand href="/">
             Art Website lol
           </Navbar.Brand>
-
-          
           
           <Nav defaultActiveKey="/" as="ul">
             <Nav.Item as="li">
