@@ -22,7 +22,7 @@
 .hero-home > .home-message{
     grid-column: 1/3;
     grid-row: 2/3;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .hero-home > .request-work{
