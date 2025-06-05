@@ -16,6 +16,14 @@
 
 .container-images{
     width: 50%;
+    height: 50px;
     padding: 0;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height: auto;
+    }
 }
