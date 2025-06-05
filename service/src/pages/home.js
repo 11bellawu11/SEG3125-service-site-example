@@ -7,7 +7,8 @@ function Home() {
     <Container >
       <Container className="hero-home">
         <h1 className='home-header'>Welcome</h1>
-        <p className='home-message'>Art Website Lol is an Art Websit where we do Art Website things</p>
+        <p className='home-message'>At Art Website Lol, we turn your ideas into custom art,
+           whether it’s a headshot or a full body piece.</p>
        
           <Link to="/commission-request" className='home-button request-work'>
             Hire Us
