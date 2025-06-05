@@ -21,19 +21,19 @@ function Header() {
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link eventKey="link-1">
+              <Nav.Link eventKey="link-1" href="/commission-info">
                 Commission Info
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link eventKey="link-2">
+              <Nav.Link eventKey="link-2" href="/commission-request">
                 Request Here
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item as="li">
-              <Nav.Link eventKey="link-3">
+              <Nav.Link eventKey="link-3" href="/gallery">
                 Gallery
               </Nav.Link>
             </Nav.Item>
