@@ -1,15 +1,16 @@
 .hero-home {
   place-items: center;
   display: grid;
-  grid-template-columns: 20% 20% 40% 20%;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 100%;
+  height: auto;
   background-color: #F2EADF;
   border: 1px solid black;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   padding-left: 15%;
   padding-right: 20%;
+  padding-bottom: 0%;
 }
 
 .hero-home > .home-header{
@@ -40,6 +41,35 @@
     height: 300px;
 }
 
+ @media (max-width: 768px) {
+  .hero-home {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 1rem;
+  }
+
+  .home-header,
+  .home-message,
+  .hero-home > .request-work,
+  .hero-home > .view-work,
+  .home-hero-img {
+    grid-column: 1 / -1 !important;
+    grid-row: auto !important;
+    text-align: center;
+  }
+
+  .home-hero-img {
+    height: auto;
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .home-button {
+    width: 80%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+} 
 
 
 /* CSS */
@@ -124,18 +154,15 @@
 }
 
 .service-card {
-  place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50% 30% 20%;
-  height: 100%;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  grid-template-rows: auto auto auto;
   column-gap: 5%;
   padding: 2%;
-  padding-right: 10%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  place-items: center;
 }
-
 .service-cards{
    background-color: #F2EADF; 
   border: 1px solid black;
@@ -156,6 +183,10 @@
     width: 450px;
     
     border: 1px solid black;
+
+
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .service-card > link{
@@ -176,6 +207,9 @@
      width: 450px;
      
     border: 1px solid black;
+
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .midshot > .request-work::before{
@@ -184,3 +218,35 @@
    background-color: #F2EADF;
     border: 1px solid black;
 }
+
+@media (max-width: 768px) {
+  .service-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .service-card > img {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    max-width: 350px;
+    justify-self: center;
+  }
+
+  .service-card > p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .service-card > .home-button {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    justify-self: center;
+  }
+}
+
