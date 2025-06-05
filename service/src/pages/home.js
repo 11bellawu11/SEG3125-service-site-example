@@ -16,7 +16,7 @@ function Home() {
           <Link to="/gallery"  className='home-button view-work'>
            Our Works
           </Link>
-        <img className='home-hero-img' src='./hero-img.avif' alt='girl'></img>
+        <img className='home-hero-img' src={require('../images/Commission_82.png')} alt='girl'></img>
       </Container>
 
       <div className="tagline-home" >
