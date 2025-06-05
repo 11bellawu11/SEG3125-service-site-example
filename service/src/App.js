@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import CommissionRequest from './pages/commission-request';
 import CommissionInfo from './pages/commission-info';
 import Gallery from './pages/gallery';
@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route path="/commission-Request" element={<CommissionRequest />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/commission-request" element={<CommissionRequest />} />
         <Route path="/commission-info" element={<CommissionInfo />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
