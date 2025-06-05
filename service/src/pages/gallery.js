@@ -31,7 +31,7 @@ function Gallery() {
     <Container className="gallery-body">
       <Container className="container1">
         <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>Welcome to the Gallery!</h2>
-        <h4>Here you will find some example works</h4>
+        <h5>Here you will find some example works</h5>
       </Container>
 
       <Container className="container1">
