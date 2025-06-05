@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <Navbar className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand as={Link} to="/">
+      <Container >
+        <Navbar.Brand as={Link} to="/" style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>
           Art Website lol
         </Navbar.Brand>
 
