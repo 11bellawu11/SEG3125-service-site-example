@@ -1,8 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import './commission-request.css';
+import React, { useState } from 'react';
 
 function CommissionRequest() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleImageChange = (event) => {
+    setSelectedImage(event.target.files[0]);
+  };
   return (
+    
     <Container className="request-form-container">
       <h2 className="form-title">Request a Commission</h2>
       <form className="request-form">
@@ -21,7 +28,9 @@ function CommissionRequest() {
         </select>
 
         <label>Describe your request</label>
-        <textarea name="details" rows="2" placeholder="Tell us what you’d like..." />
+        <textarea name="details" rows="1" placeholder="Tell us what you’d like..." />
+        <label>Show us a reference image!</label>
+        <input type="file" accept="image/*" onChange={handleImageChange} />
         <button type="submit" className="submit-button">Submit</button>
         
       </form>
