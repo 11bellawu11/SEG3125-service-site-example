@@ -1,24 +1,28 @@
 .gallery-body{
     margin: 5%;
-    text-align: center;
+     font-family: 'Quicksand', sans-serif;
 }
 
 .container1{
     padding: 0;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding: 2%;
+    text-align: center;
 }
 
 .row1{
-    background-color: lightblue;
+    background-color: #F2EADF;;
     padding: 0;
     margin: 0;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .col1{
     width: auto;
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 1%;
     align-content: center;
     text-align: center;
 }

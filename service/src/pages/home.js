@@ -12,7 +12,7 @@ function Home() {
           <Link to="/commission-request" className='home-button request-work'>
             Hire Us
           </Link>
-          <Link to="/commission-info"  className='home-button view-work'>
+          <Link to="/gallery"  className='home-button view-work'>
            Our Works
           </Link>
         <img className='home-hero-img' src='./hero-img.avif' alt='girl'></img>
