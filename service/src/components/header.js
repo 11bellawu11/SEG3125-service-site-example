@@ -7,15 +7,13 @@ function Header() {
   <>
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             Art Website lol
           </Navbar.Brand>
-
           
-          
-          <Nav defaultActiveKey="/home" as="ul">
+          <Nav defaultActiveKey="/" as="ul">
             <Nav.Item as="li">
-              <Nav.Link href="/home">
+              <Nav.Link href="/">
                 Home
               </Nav.Link>
             </Nav.Item>

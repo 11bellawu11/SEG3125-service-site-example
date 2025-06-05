@@ -1,0 +1,29 @@
+import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+
+
+function HeadshotCarousel() { 
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+  
+  return(
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel.Item>
+        <img src={require('../images/20200307_190940000_iOS')} alt="..."></img>
+    </Carousel.Item>
+    <Carousel.Item>
+        <img src={require('../images/20200307_191006000_iOS.jpg')}></img>
+    </Carousel.Item>
+    <Carousel.Item>
+        <img src={require('../images/20200307_191028000_iOS.jpg')}></img>
+    </Carousel.Item>
+    <Carousel.Item>
+        <img src={require('../images/20200307_191028000_iOS.jpg')}></img>
+    </Carousel.Item>
+    </Carousel>
+  );
+}
+export default HeadshotCarousel;
