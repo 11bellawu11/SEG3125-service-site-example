@@ -54,7 +54,7 @@ function CommissionRequest() {
             <select name="type">
               <option value="">Select one</option>
               <option value="headshot">Headshot</option>
-              <option value="midshot">Midshot</option>
+              <option value="midshot">Half body</option>
               <option value="fullbody">Full Body</option>
             </select>
 

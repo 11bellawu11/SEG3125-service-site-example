@@ -38,7 +38,7 @@ function Home() {
           </div>
           <div className="service-card midshot"> 
             <img src='./midshot.jpg' alt='midshot image'></img>
-            <h2>Midshots</h2>
+            <h2>Half body</h2>
             <p>A half-body illustration from the waist up. Perfect for showcasing clothing, posture, and expression. Suitable for character art, presentations, or promotional use.</p>
             <Link to="/commission-info"  className='home-button request-work'>
               Learn More!
