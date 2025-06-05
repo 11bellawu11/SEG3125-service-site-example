@@ -41,8 +41,13 @@ function Gallery() {
               Headshot drawings!
             </h3>
             <h5>
-              aaaaaaaaaaaaaaaaaaa
+              A vibraint anime-styled headshot, good for profile pics!
             </h5>
+            <br />
+            <h6>
+              ⋆˙⟡ 2000x2000 px minimum dimensions ⟡˙⋆<br />
+              ⋆˙⟡ 300 DPI, printing quality ⟡˙⋆
+            </h6>
           </Col>
 
           <Col className="col1">
@@ -71,8 +76,13 @@ function Gallery() {
               Halfbody drawings!
             </h3>
             <h5>
-              aaaaaaaaaaaaaaaaaaa
+              A vibraint anime-styled halfbody illustration, good for prints!
             </h5>
+            <br />
+            <h6>
+              ⋆˙⟡ 3000x2000 px minimum dimensions ⟡˙⋆<br />
+              ⋆˙⟡ 300 DPI, printing quality ⟡˙⋆
+            </h6>
           </Col>
 
           <Col className="col1">
@@ -101,8 +111,13 @@ function Gallery() {
               Fullbody drawings!
             </h3>
             <h5>
-              aaaaaaaaaaaaaaaaaaa
+              A vibraint anime-styled fullbody illustration, good for references and prints!
             </h5>
+            <br />
+            <h6>
+              ⋆˙⟡ 4000x3000 px minimum dimensions ⟡˙⋆<br />
+              ⋆˙⟡ 300 DPI, printing quality ⟡˙⋆
+            </h6>
           </Col>
 
           <Col className="col1">
