@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import './home.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return(
@@ -7,8 +8,13 @@ function Home() {
       <Container className="hero-home">
         <h1 className='home-header'>Welcome</h1>
         <p className='home-message'>Art Website Lol is an Art Websit where we do Art Website things</p>
-        <div className='home-button request-work' role='button'>Hire us</div>
-        <div className='home-button view-work' role='button'>Our works</div>
+       
+          <Link to="/commission-request" className='home-button request-work'>
+            Hire Us
+          </Link>
+          <Link to="/commission-info"  className='home-button view-work'>
+           Our Works
+          </Link>
         <img className='home-hero-img' src='./hero-img.avif' alt='girl'></img>
       </Container>
 
@@ -21,9 +27,27 @@ function Home() {
       <div className="services-section">
         <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>Our Services</h2>
         <div className="service-cards">
-          <div className="card"> {/* Headshot */}</div>
-          <div className="card"> {/* Midshot */}</div>
-          <div className="card"> {/* Full Body */}</div>
+          <div className="service-card headshot"> 
+            <img src='./headshot.PNG' alt='headshot art of lady'></img>
+            <p>A focused portrait from the shoulders up, ideal for profile images, branding, or gifting. Simple, clean, and expressive </p>
+            <Link to="/commission-info"  className='home-button request-work'>
+              Learn More!
+            </Link>
+          </div>
+          <div className="service-card midshot"> 
+            <img src='./midshot.jpg' alt='midshot image'></img>
+            <p>A half-body illustration from the waist up. Perfect for showcasing clothing, posture, and expression. Suitable for character art, presentations, or promotional use.</p>
+            <Link to="/commission-info"  className='home-button request-work'>
+              Learn More!
+            </Link>
+          </div>
+          <div className="service-card fullbody"> 
+            <img src='./fullbody.png' alt='fullbody drawing'></img>
+            <p>A complete illustration capturing the subject from head to toe. Recommended for dynamic poses, full outfits, and detailed character designs. Ideal for reference sheets, storytelling, or standout visuals.</p>
+            <Link to="/commission-info"  className='home-button request-work'>
+              Learn More!
+            </Link>
+          </div>
         </div>
       </div>
     </Container>

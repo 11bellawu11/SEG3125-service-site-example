@@ -5,7 +5,7 @@
   grid-template-rows: 1fr 1fr 1fr;
   height: 100%;
   background-color: #F2EADF;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   padding-left: 15%;
@@ -15,6 +15,8 @@
 .hero-home > .home-header{
     grid-column: 1/3;
     grid-row: 1/2;
+    
+    
 }
 .hero-home > .home-message{
     grid-column: 1/3;
@@ -76,12 +78,13 @@
   transform: translate(0%, 0%);
   width: 100%;
   height: 100%;
-  background: #A9CBB7;
+  background: #D88C9A ; /* #A9CBB7;*/
   border-radius: 10px;
 }
 
-.request-work::before{
-    background-color: #D88C9A;
+.view-work::before{
+    background-color: #F2EADF;
+    border: 1px solid black;
 }
 
 .home-button::after {
@@ -117,4 +120,66 @@
     font-size: xx-large;
     padding: 3%;
     font-family: 'Quicksand', sans-serif;
+}
+
+.service-card {
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50% 30% 20%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  column-gap: 5%;
+  padding: 2%;
+  padding-right: 10%;
+}
+
+.service-cards{
+   background-color: #F2EADF; 
+  border: 1px solid black;
+  border-radius: 3%;
+}
+
+.service-card > p{
+    font-size: 1.5rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.service-card > img{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    height: 450px;
+    border-radius: 5%;
+    width: 450px;
+    
+    border: 1px solid black;
+}
+
+.service-card > link{
+     grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.midshot > p{
+    font-size: 1.5rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.midshot > img{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    height: 450px;
+     width: 450px;
+     
+    border: 1px solid black;
+}
+
+.midshot > .request-work::before{
+     grid-column: 1/2;
+    grid-row: 2/3;
+   background-color: #F2EADF;
+    border: 1px solid black;
 }
