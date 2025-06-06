@@ -53,16 +53,13 @@ function Gallery() {
           <Col className="col1">
               <Carousel activeIndex={index1} onSelect={handleSelect1}>
                   <Carousel.Item>
-                      <img src={require('../images/20200307_191155000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                      <img src={require('../images/Commission 75 - Zion-Showcase.png')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
                   <Carousel.Item>
                       <img  src={require('../images/20200307_191006000_iOS.jpg')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
                   <Carousel.Item>
                       <img src={require('../images/20240907_175821192_iOS.png')} class="img-fluid" alt="..."></img>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                      <img src={require('../images/20200307_191028000_iOS.jpg')} class="img-fluid" alt="..."></img>
                   </Carousel.Item>
                   <Carousel.Item>
                       <img src={require('../images/20200324_175234000_iOS.jpg')} class="img-fluid" alt="..."></img>
@@ -94,10 +91,10 @@ function Gallery() {
                   <img src={require('../images/FengQing Wedding Zine 1.png')} class="img-fluid" alt="..."></img>
               </Carousel.Item>
               <Carousel.Item>
-                  <img src={require('../images/20200307_191028000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  <img src={require('../images/20240104_193355273_iOS.png')} class="img-fluid" alt="..."></img>
               </Carousel.Item>
               <Carousel.Item>
-                  <img src={require('../images/20200324_175234000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  <img src={require('../images/20230104_074114062_iOS.png')} class="img-fluid" alt="..."></img>
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -123,13 +120,13 @@ function Gallery() {
           <Col className="col1">
             <Carousel activeIndex={index3} onSelect={handleSelect3}>
               <Carousel.Item>
-                  <img src={require('../images/20200307_191006000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  <img src={require('../images/Commission 64 - Monoleaff_-Showcase.png')} class="img-fluid" alt="..."></img>
               </Carousel.Item>
               <Carousel.Item>
-                  <img src={require('../images/20200307_191028000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  <img src={require('../images/20230624_213355261_iOS.png')} class="img-fluid" alt="..."></img>
               </Carousel.Item>
               <Carousel.Item>
-                  <img src={require('../images/20200324_175234000_iOS.jpg')} class="img-fluid" alt="..."></img>
+                  <img src={require('../images/Commission 76 - The_Adversary.png')} class="img-fluid" alt="..."></img>
               </Carousel.Item>
             </Carousel>
           </Col>
