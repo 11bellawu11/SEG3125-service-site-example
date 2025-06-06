@@ -1,0 +1,13 @@
+footer {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
+  color: #555;
+}
+footer a {
+  color: #D88C9A;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

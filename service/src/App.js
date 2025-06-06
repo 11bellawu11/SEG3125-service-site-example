@@ -4,6 +4,7 @@ import CommissionInfo from './pages/commission-info';
 import Gallery from './pages/gallery';
 import Home from './pages/home';
 import Header from './components/header';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/commission-info" element={<CommissionInfo />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
