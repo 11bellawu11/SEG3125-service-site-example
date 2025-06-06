@@ -30,8 +30,8 @@ function Gallery() {
   return(
     <Container className="gallery-body">
       <Container className="container2">
-        <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem', color: "#D88C9A"}}>Welcome to the Gallery!</h2>
-        <h5 style={{color: "#D88C9A"}}>Here you will find some example works</h5>
+        <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem'}}>Welcome to the Gallery!</h2>
+        <h5>Here you will find some example works</h5>
       </Container>
 
       <Container className="container1">
