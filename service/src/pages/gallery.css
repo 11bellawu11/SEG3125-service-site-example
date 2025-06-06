@@ -1,6 +1,6 @@
 .gallery-body{
-    margin: 5%;
      font-family: 'Quicksand', sans-serif;
+     place-items: center;
 }
 
 .container1{
