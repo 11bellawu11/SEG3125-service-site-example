@@ -14,6 +14,19 @@ function CommissionInfo() {
 
       <Container className="container1">
         <Row className="row1">
+          <Col className="col1" style={{textAlign: "left", padding:"5%"}}>
+            <p>
+              ✦ Fullbody armor and mecha <br />
+              ✦ Animals <br />
+              ✦ NSFW or suggestive content <br />
+            </p>
+            <p>
+              ✦ Simple color backgrounds are free, more complex backgrounds like scenery are extra depending on the complexity <br />
+              ✦ Extra characters or expressions are $10-50 each (depending on the type of commission) <br />
+              ✦ Commercial pieces for streaming and branding purposes will have a price increase of +50% <br />
+              ✦ If it is a commercial piece where profit will be gained, commission price will also be adjusted to reflect (up to a +300% increase depending on usage) <br />
+            </p>
+          </Col>
           <Col className="col1">
             <p>
               ☾　__Headshot/bust-up__　☽ <br />
