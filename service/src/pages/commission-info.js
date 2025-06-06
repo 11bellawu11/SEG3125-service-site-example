@@ -1,4 +1,8 @@
 function CommissionInfo() {
-  return <h2>Welcome to information Page</h2>;
+  return (
+    
+
+
+  );
 }
 export default CommissionInfo;

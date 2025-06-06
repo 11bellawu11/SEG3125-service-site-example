@@ -7,8 +7,14 @@
     padding: 0;
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: center;
+}
+.container2{
+    background-color: #F2EADF;;
     padding: 2%;
     text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 .row1{

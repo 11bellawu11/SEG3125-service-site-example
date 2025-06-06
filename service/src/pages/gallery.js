@@ -29,15 +29,15 @@ function Gallery() {
 
   return(
     <Container className="gallery-body">
-      <Container className="container1">
-        <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>Welcome to the Gallery!</h2>
-        <h5>Here you will find some example works</h5>
+      <Container className="container2">
+        <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem', color: "#D88C9A"}}>Welcome to the Gallery!</h2>
+        <h5 style={{color: "#D88C9A"}}>Here you will find some example works</h5>
       </Container>
 
       <Container className="container1">
         <Row className="row1">
           <Col className="col1">
-            <h3>
+            <h3 style={{fontWeight: "bold"}}>
               Headshot drawings!
             </h3>
             <h5>
@@ -72,7 +72,7 @@ function Gallery() {
       <Container className="container1">
         <Row className="row1">
           <Col className="col1">
-            <h3>
+            <h3 style={{fontWeight: "bold"}}>
               Halfbody drawings!
             </h3>
             <h5>
@@ -104,7 +104,7 @@ function Gallery() {
       <Container className="container1">
         <Row className="row1">
           <Col className="col1">
-            <h3>
+            <h3 style={{fontWeight: "bold"}}>
               Fullbody drawings!
             </h3>
             <h5>
