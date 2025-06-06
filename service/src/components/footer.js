@@ -10,6 +10,7 @@ function Footer() {
             <p className="mb-1">Contact us at <a href="mailto:dummymail@gmail.com">artServiceLol@gmail.com</a></p>
             <p className="mb-0">© 2025 Art Website Lol. Site designed by Bella Wu, Enuma Otiji.</p>
             </div>
+            <p>icon from <a href="https://www.flaticon.com/free-icons/art-and-design" title="art and design icons">Flaticon</a></p>
         </footer>
     </Container>
   );

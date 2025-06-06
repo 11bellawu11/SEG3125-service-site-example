@@ -1,6 +1,5 @@
 footer {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.2rem;
   background-color: #f2f2f2;
   color: #555;
 }
@@ -10,4 +9,8 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+
+.container > p{
+    font-size: 1.2rem;
 }
