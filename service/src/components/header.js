@@ -8,7 +8,7 @@ function Header() {
     <Navbar className="bg-body-tertiary">
       <Container style={{ fontFamily: "'Quicksand', sans-serif"}} >
         <Navbar.Brand as={Link} to="/" style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem' }}>
-          <img src='./paint-brush.png' style={{height:'50px'}}></img>ArtistryHub
+          <img src={require('../images/paint-brush.png')} style={{height:'50px'}}></img>ArtistryHub
         </Navbar.Brand>
 
         <Nav as="ul">
