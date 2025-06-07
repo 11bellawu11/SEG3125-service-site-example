@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SEG3125-service-site-example/static/css/main.9a559126.css",
+    "main.js": "/SEG3125-service-site-example/static/js/main.98fba7bf.js",
+    "static/js/453.0c69cf18.chunk.js": "/SEG3125-service-site-example/static/js/453.0c69cf18.chunk.js",
+    "static/media/20230104_074114062_iOS.png": "/SEG3125-service-site-example/static/media/20230104_074114062_iOS.c1eb72a37a2131354d5a.png",
+    "static/media/Commission 76 - The_Adversary.png": "/SEG3125-service-site-example/static/media/Commission 76 - The_Adversary.967f90bc977ed5b271aa.png",
+    "static/media/20240104_193355273_iOS.png": "/SEG3125-service-site-example/static/media/20240104_193355273_iOS.cc3844042d5f387233f0.png",
+    "static/media/Commission_82.png": "/SEG3125-service-site-example/static/media/Commission_82.0fbebbdc9377d411dcf0.png",
+    "static/media/20240907_175821192_iOS.png": "/SEG3125-service-site-example/static/media/20240907_175821192_iOS.0e98e4e849aed330a9b6.png",
+    "static/media/20230624_213355261_iOS.png": "/SEG3125-service-site-example/static/media/20230624_213355261_iOS.dcfc979f833a7a37e69b.png",
+    "static/media/FengQing Wedding Zine 1.png": "/SEG3125-service-site-example/static/media/FengQing Wedding Zine 1.80e5aab357f0bc4b5cf9.png",
+    "static/media/Commission 75 - Zion-Showcase.png": "/SEG3125-service-site-example/static/media/Commission 75 - Zion-Showcase.a1d1d642da80236c6a80.png",
+    "static/media/Commission 64 - Monoleaff_-Showcase.png": "/SEG3125-service-site-example/static/media/Commission 64 - Monoleaff_-Showcase.7ca604489df99736183f.png",
+    "static/media/20200324_175234000_iOS.jpg": "/SEG3125-service-site-example/static/media/20200324_175234000_iOS.a155b6f65c3044ff0d6e.jpg",
+    "static/media/20200307_191006000_iOS.jpg": "/SEG3125-service-site-example/static/media/20200307_191006000_iOS.e21acc0345a731bdc3bc.jpg",
+    "index.html": "/SEG3125-service-site-example/index.html",
+    "main.9a559126.css.map": "/SEG3125-service-site-example/static/css/main.9a559126.css.map",
+    "main.98fba7bf.js.map": "/SEG3125-service-site-example/static/js/main.98fba7bf.js.map",
+    "453.0c69cf18.chunk.js.map": "/SEG3125-service-site-example/static/js/453.0c69cf18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a559126.css",
+    "static/js/main.98fba7bf.js"
+  ]
+}
