@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 import './gallery.css';
 
 import { useState } from 'react';
@@ -31,7 +32,7 @@ function Gallery() {
     <Container className="gallery-body">
       <Container className="container2">
         <h2 style={{ fontFamily: "'Caveat', cursive", fontSize: '2.5rem'}}>Welcome to the Gallery!</h2>
-        <h5>Here you will find some example works</h5>
+        <h5 style={{color: "#D88C9A"}}>Here you will find some example works</h5>
       </Container>
 
       <Container className="container1">
@@ -48,6 +49,11 @@ function Gallery() {
               ⋆˙⟡ 2000x2000 px minimum dimensions ⟡˙⋆<br />
               ⋆˙⟡ 300 DPI, printing quality ⟡˙⋆
             </h6>
+            <Container className="container1" style={{placeItems:"center"}}>
+              <Link to="/commission-info" className='request-btn'>
+                See prices
+              </Link>
+            </Container>
           </Col>
 
           <Col className="col1">
@@ -83,6 +89,11 @@ function Gallery() {
               ⋆˙⟡ 3000x2000 px minimum dimensions ⟡˙⋆<br />
               ⋆˙⟡ 300 DPI, printing quality ⟡˙⋆
             </h6>
+            <Container className="container1" style={{placeItems:"center"}}>
+              <Link to="/commission-info" className='request-btn'>
+                See prices
+              </Link>
+            </Container>
           </Col>
 
           <Col className="col1">
@@ -115,6 +126,11 @@ function Gallery() {
               ⋆˙⟡ 4000x3000 px minimum dimensions ⟡˙⋆<br />
               ⋆˙⟡ 300 DPI, printing quality ⟡˙⋆
             </h6>
+            <Container className="container1" style={{placeItems:"center"}}>
+              <Link to="/commission-info" className='request-btn'>
+                See prices
+              </Link>
+            </Container>
           </Col>
 
           <Col className="col1">
